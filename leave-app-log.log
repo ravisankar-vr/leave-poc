@@ -1,0 +1,52 @@
+2023-11-28T10:45:27.527+05:30  INFO 18340 --- [restartedMain] com.lev.poc.LeaveServiceApplication      : Starting LeaveServiceApplication using Java 17.0.8 with PID 18340 (C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V3\leave-service\target\classes started by Optimum in C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V3\leave-service)
+2023-11-28T10:45:27.538+05:30  INFO 18340 --- [restartedMain] com.lev.poc.LeaveServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-11-28T10:45:27.617+05:30  INFO 18340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-28T10:45:27.619+05:30  INFO 18340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-28T10:45:28.307+05:30  INFO 18340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-28T10:45:28.359+05:30  INFO 18340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2023-11-28T10:45:29.038+05:30  INFO 18340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-11-28T10:45:29.046+05:30  INFO 18340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-28T10:45:29.046+05:30  INFO 18340 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-28T10:45:29.113+05:30  INFO 18340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-28T10:45:29.114+05:30  INFO 18340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1494 ms
+2023-11-28T10:45:29.288+05:30  INFO 18340 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-28T10:45:29.338+05:30  INFO 18340 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-28T10:45:29.340+05:30  INFO 18340 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-28T10:45:29.562+05:30  INFO 18340 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-28T10:45:29.585+05:30  INFO 18340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-28T10:45:29.849+05:30  INFO 18340 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@197d9de9
+2023-11-28T10:45:29.851+05:30  INFO 18340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-28T10:45:29.895+05:30  WARN 18340 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-28T10:45:29.896+05:30  WARN 18340 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-11-28T10:45:30.669+05:30  INFO 18340 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-28T10:45:30.746+05:30  INFO 18340 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-28T10:45:31.072+05:30  WARN 18340 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-28T10:45:31.131+05:30 DEBUG 18340 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-11-28T10:45:31.174+05:30 DEBUG 18340 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-28T10:45:31.203+05:30 DEBUG 18340 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-28T10:45:31.361+05:30  WARN 18340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-11-28T10:45:31.404+05:30  INFO 18340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-11-28T10:45:31.414+05:30  INFO 18340 --- [restartedMain] com.lev.poc.LeaveServiceApplication      : Started LeaveServiceApplication in 4.394 seconds (process running for 4.928)
+2023-11-28T10:45:45.591+05:30  INFO 18340 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-28T10:45:45.591+05:30  INFO 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-28T10:45:45.591+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-11-28T10:45:45.591+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-11-28T10:45:45.591+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-11-28T10:45:45.591+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4a8ccecf
+2023-11-28T10:45:45.591+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@78916a2
+2023-11-28T10:45:45.591+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-28T10:45:45.591+05:30  INFO 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-11-28T10:45:45.609+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/api/leaves/1", parameters={}
+2023-11-28T10:45:45.639+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.lev.poc.controller.LeaveController#getEmployeeLeave(int)
+2023-11-28T10:45:45.639+05:30  INFO 18340 --- [http-nio-8082-exec-1] com.lev.poc.controller.LeaveController   : In LeaveService RestController - to fetch Leave Details 
+2023-11-28T10:45:45.655+05:30  INFO 18340 --- [http-nio-8082-exec-1] c.lev.poc.service.impl.LeaveServiceImpl  : In LeaveServiceImpl - to fetch Leave Details from repository
+2023-11-28T10:45:45.734+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] org.hibernate.SQL                        : select l1_0.lv_id,l1_0.balance_lv,l1_0.lv_typ,l1_0.taken_lv,l1_0.total_lv from emp_leave l1_0 where l1_0.lv_id=?
+2023-11-28T10:45:45.797+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/vnd.spring-boot.actuator.v2+json]
+2023-11-28T10:45:45.797+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.lev.poc.entity.Leave@4df5f1bd]
+2023-11-28T10:45:45.813+05:30 DEBUG 18340 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-28T11:56:07.341+05:30  WARN 18340 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m36s730ms840µs900ns).
+2023-11-28T14:10:02.401+05:30  WARN 18340 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m54s51ms988µs).
+2023-11-28T18:20:13.129+05:30  WARN 18340 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m37s265ms421µs700ns).
+2023-11-28T19:09:24.809+05:30  INFO 18340 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-28T19:09:24.839+05:30  INFO 18340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-28T19:09:24.846+05:30  INFO 18340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
